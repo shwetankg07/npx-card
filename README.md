@@ -4,8 +4,8 @@ Welcome to **Shwetank's Den**! This is not just a business card; it's a fully in
 
 By simply running a single command, you can explore my social profiles, hear a joke, catch a Pokemon, or even get hacked.
 
-![NPM Version](https://img.shields.io/badge/version-1.0.1-red.svg)
-![License](https://img.shields.io/badge/license-ISC-grey.svg)
+![NPM Version](https://img.shields.io/badge/version-1.0.3-lightgrey.svg)
+![License](https://img.shields.io/badge/license-ISC-lightgrey.svg)
 
 ## 🌟 Features
 

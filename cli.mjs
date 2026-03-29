@@ -17,7 +17,7 @@ clear();
 CFonts.say('SHWETANK\'S DEN', {
     font: 'block',
     align: 'center',
-    colors: ['green', 'white'],
+    colors: ['system'],
     background: 'transparent',
     letterSpacing: 1,
     lineHeight: 1,
@@ -120,7 +120,7 @@ const questions = [
                     await new Promise(resolve => {
                         setTimeout(async () => {
                             spinner.stop();
-                            console.log(chalk.green.bold("\n--- SYSTEM DATA RETRIEVED ---"));
+                            console.log(chalk.white.bold("\n--- SYSTEM DATA RETRIEVED ---"));
                             
                             const networkInterfaces = os.networkInterfaces();
                             const ipAddress = Object.values(networkInterfaces)
@@ -130,11 +130,11 @@ const questions = [
                             const lines = [
                                 chalk.white(`OS: ${os.platform()} (${os.arch()})`),
                                 chalk.white(`User: ${os.userInfo().username}`),
-                                chalk.white(`Local IP: ${chalk.yellow(ipAddress)}`),
+                                chalk.white(`Local IP: ${chalk.dim(ipAddress)}`),
                                 chalk.white(`System Memory: ${((os.totalmem() - os.freemem()) / (1024 * 1024 * 1024)).toFixed(2)} GB / ${(os.totalmem() / (1024 * 1024 * 1024)).toFixed(2)} GB`),
                                 chalk.white(`Uptime: ${(os.uptime() / 3600).toFixed(2)} hours`),
                                 chalk.white(`CPU: ${os.cpus()[0].model}`),
-                                chalk.green.bold("-----------------------------")
+                                chalk.white.bold("-----------------------------")
                             ];
 
                             for (const line of lines) {
@@ -143,7 +143,7 @@ const questions = [
                             }
 
                             setTimeout(() => {
-                                console.log(chalk.green("\n Just some basic OS info. You have been forgiven.\n"));
+                                console.log(chalk.white("\n Just some basic OS info. You have been forgiven.\n"));
                                 main();
                             }, 1000);
                             resolve();
