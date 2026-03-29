@@ -103,7 +103,7 @@ const questions = [
                 }
             },
             {
-                name: `Get ${chalk.red.bold("Hacked")}?`,
+                name: `Get ${chalk.white.bold("Hacked")}?`,
                 value: async () => {
                     const spinner = ora(chalk.green("Initializing system scan...")).start();
                     
@@ -257,12 +257,12 @@ const questions = [
 ];
 
 const data = {
-    name: chalk.bold.red("Shwetank"),
-    handle: chalk.white("@shwetank"),
-    instagram: chalk.gray("https://instagram.com/") + chalk.cyan("shwetank._.gupta"),
-    github: chalk.gray("https://github.com/") + chalk.white("shwetankg07"),
-    linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("shwetankg07"),
-    npx: chalk.red("npx") + " " + chalk.white("shwetank"),
+    name: chalk.bold.white("Shwetank"),
+    handle: chalk.dim("@shwetank"),
+    instagram: chalk.gray("https://instagram.com/") + chalk.dim("shwetank._.gupta"),
+    github: chalk.gray("https://github.com/") + chalk.dim("shwetankg07"),
+    linkedin: chalk.gray("https://linkedin.com/in/") + chalk.dim("shwetankg07"),
+    npx: chalk.white("npx") + " " + chalk.dim("shwetank"),
     labelInstagram: chalk.white.bold("Instagram:"),
     labelGitHub: chalk.white.bold("GitHub:"),
     labelLinkedIn: chalk.white.bold("LinkedIn:"),
@@ -289,14 +289,14 @@ const me = boxen(
         float: 'center',
         padding: 1,
         borderStyle: "single",
-        borderColor: "red"
+        borderColor: "white"
     }
 );
 
 console.log(me);
 
 const tip = [
-    `Tip: Try ${chalk.cyanBright.bold("cmd/ctrl + click")} on the links above`,
+    `Tip: Try ${chalk.white.bold("cmd/ctrl + click")} on the links above`,
     '',
 ].join("\n");
 
