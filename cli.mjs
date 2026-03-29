@@ -257,10 +257,10 @@ const questions = [
 ];
 
 const data = {
-    name: chalk.bold.green("Shwetank"),
+    name: chalk.bold.red("Shwetank"),
     handle: chalk.white("@shwetank"),
     instagram: chalk.gray("https://instagram.com/") + chalk.cyan("shwetank._.gupta"),
-    github: chalk.gray("https://github.com/") + chalk.green("shwetankg07"),
+    github: chalk.gray("https://github.com/") + chalk.white("shwetankg07"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("shwetankg07"),
     npx: chalk.red("npx") + " " + chalk.white("shwetank"),
     labelInstagram: chalk.white.bold("Instagram:"),
@@ -289,7 +289,7 @@ const me = boxen(
         float: 'center',
         padding: 1,
         borderStyle: "single",
-        borderColor: "green"
+        borderColor: "red"
     }
 );
 

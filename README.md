@@ -4,8 +4,8 @@ Welcome to **Shwetank's Den**! This is not just a business card; it's a fully in
 
 By simply running a single command, you can explore my social profiles, hear a joke, catch a Pokemon, or even get hacked.
 
-![NPM Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![License](https://img.shields.io/badge/license-ISC-green.svg)
+![NPM Version](https://img.shields.io/badge/version-1.0.1-red.svg)
+![License](https://img.shields.io/badge/license-ISC-grey.svg)
 
 ## 🌟 Features
 
@@ -31,7 +31,7 @@ If you'd like to play with the code or contribute:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/shwetankg07/shwetank-card.git
+   git clone https://github.com/shwetankg07/npx-card.git
    ```
 
 2. **Navigate to the directory:**
