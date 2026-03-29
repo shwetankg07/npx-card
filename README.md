@@ -2,17 +2,17 @@
 
 Welcome to **Shwetank's Den**! This is not just a business card; it's a fully interactive, terminal-based experience built with Node.js. 
 
-By simply running a single command, you can explore my social profiles, hear a joke, catch a Pokemon, or even enter "Hacker Mode" (don't worry, it's harmless! 😉).
+By simply running a single command, you can explore my social profiles, hear a joke, catch a Pokemon, or even get hacked.
 
 ![NPM Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![License](https://img.shields.io/badge/license-ISC-green.svg)
 
 ## 🌟 Features
 
-- **Interactive Menu:** Navigate through different sections using your arrow keys.
+- **Interactive Menu:** Navigate through different sections using your arrow keys or j/k.
 - **The Cool Cow 🐄:** Ask the cow for a joke, a useless fact, or make it say anything you want!
 - **PokeDex 🔴:** Search for any Pokemon or get a random one with real base stats and ASCII art.
-- **Hacker Mode 💻:** A dramatic "system scan" that reveals some (harmless) info about your OS.
+- **Hacker Mode 💻:** A dramatic "system scan" that reveals some info about your OS.
 - **Social Links:** Quick access to my GitHub, LinkedIn, and Instagram.
 - **Direct Email:** Launch your email client to send me a message instantly.
 
@@ -24,7 +24,6 @@ No installation is required! If you have Node.js installed, just run:
 npx shwetank
 ```
 
-*(Note: If "shwetank" is taken on npm, update this command to your published package name!)*
 
 ## 🛠️ Local Development
 
